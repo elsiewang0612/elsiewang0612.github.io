@@ -2,11 +2,12 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>XI WANG'S MAP672 Portfolio</title>
+<title>XI WANG's Portfolio</title>
 
 <meta name=‘viewport’ content=‘initial-scale=1,maximum-scale=1,user-scalable=no’ />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />    
 <link href='http://fonts.googleapis.com/css?family=Imprima' rel='stylesheet' type='text/css'>
+
 
 <style>
     .project {
@@ -37,7 +38,7 @@
         width: 100%;
         min-width: 800px;
         margin: 0 auto;
-        background: #2eb82e;
+        background: #e7298a;
         padding: 15px 0 20px;
 }
     h1 { 
@@ -83,9 +84,17 @@ img {
 
 <body>
 <header>
-    <h1>MAP672: Programming for Web Mapping</h1>
-    <h2>Web Cartography at the University of Kentucky</h2>
+    <h1>Xi Wang</h1>
+    <h2>Web Map Profolio_University of Kentucky</h2>
 </header>
+<script src="http://code.jquery.com/jquery-1.12.2.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simple-statistics/1.0.1/simple_statistics.js"></script>
+    <script src="sparkline.js"></script>    
+    
+    
+    
+    
 <section class="project">
     <a href="maps/PopDensity.pdf"><img src="images/PopDensity.png" alt="County Population Density in US" class="project-image" /></a>
     <h3><a href="maps/PopDensity.pdf">County Population Density in US</a></h3>
@@ -113,6 +122,16 @@ img {
     <ul>
         <li>See the map: <a target = '_blank'  href="http://elsiewang0612.github.io/Power-Plants-Distribution-in-US">Power Plants Distribution in US</a></li>
         <li>Data Source: <a target = '_blank'  href="http://www.eia.gov/electricity/data/eia923/">US Energy Information</a></li>
+    </ul>
+</section>
+    
+<section class="project">
+   <a target = '_blank' href="#"><img src="images/crash.png" alt="Crashes in Kentucky 2011-2015" class="project-image" /></a>
+    <h3><a target = '_blank' href="#">Crashes in Kentucky 2011-2015</a></h3>
+    <p>This map presents the statewide crashes distributions by counties for the years of 2011 through 2015. A primary objective of this map is to figure out the association between the crashes frequencies and the geographic locations. Crash rate(percentage) is calulated as total number of crashes is divided by the population for each county and various types of crashes causes.According to the ducmentations, the most crashes involves alcohol, drugs, unsafe speeding, motocycle and trucks.</p>
+    <ul>
+        <li>See the map: <a target = '_blank'  href="http://elsiewang0612.github.io/XiWang_Crashes-in-Kentucky">Crashes in Kentucky 2011-2015</a></li>
+        <li>Data Source: <a target = '_blank'  href="http://transportation.ky.gov/Pages/default.aspx">Kentucky Transportation Cabinet (KYTC)</a></li>
     </ul>
 </section>
     
